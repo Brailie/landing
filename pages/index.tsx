@@ -19,10 +19,10 @@ const Home: NextPage = () => {
         <main className={styles.main}>
           <div className='hero'>
             <h1 className={styles.title}>
-            Create, Launch Your NFT Projects With Ease.
+            Create, Launch Your Defi & Web3 Projects With Ease.
             </h1>
             <p className={styles.description}>
-            Get the best of both worlds with Brailie as we are skilled in Blockchain Development, Software Engineering, Graphic Design, and Strategic Marketing that would ensure your NFT project is in great hands.
+            Get the best of both worlds with Brailie as we are a development firm skilled in Web3 Blockchain Development, Full Stack Development, Graphic Design and Strategic Marketing that would ensure your Defi project is in great hands.
             </p>
           </div>
           
