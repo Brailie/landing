@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <header className={styles.header}>
         <nav className={styles.nav}>
             <div className={styles.logo}> <span className={styles.bracket} >&#91;</span> brailie <span className={styles.bracket} >&#93;</span> </div>
-            <a href="">GET IN TOUCH</a>
+            <a href="mailto:idea@brailie.dev">GET IN TOUCH</a>
         </nav>
         <main className={styles.main}>
           <div className='hero'>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
       <div className={styles.circle}></div>
       <div className={styles.circle2}></div>
       <footer className={styles.footer}>
-        <h2>Working On A project? </h2>
+        <h2>Are You A Project Founder Working On A Project? </h2>
         <a href="mailto:idea@brailie.dev">idea@brailie.dev</a>
         <div className={styles.copy}>
           <small>&copy; 2022 brailie. All Right Reserved</small>
