@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <div className={styles.copy}>
           <small>&copy; 2022 brailie. All Right Reserved</small>
           <div><hr className={styles.line}/></div>
-          <small>Follow us on <a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a></small>
+          <small>Follow us on <a href="https://twitter.com/Brailiedev"><FontAwesomeIcon icon={faTwitter} /></a></small>
         </div>
 
       </footer>
