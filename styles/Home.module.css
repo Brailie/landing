@@ -1,0 +1,152 @@
+
+
+.main {
+  min-height: 100vh;
+  padding: 3rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main > div {
+  width: 90%;
+  max-width: 35rem;
+}
+.bracket {
+  color: #17A600;
+  font-size: 2rem;
+}
+.header {
+  background-color: #242424;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #17A600;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.nav a:hover {
+  background-color: #17A600;
+  color: white;
+
+}
+.circle, .circle2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #16a60067;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.circle {
+  box-shadow: 0px 0px 100px 55px #17A600;
+  top: 200px ;
+  left: 50px;
+}
+.circle2 {
+  bottom: -200px ;
+  right: 200px;
+  box-shadow: 0px 0px 100px 20px #17A600;
+  z-index: 1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  
+}
+.copy {
+  display: flex;   
+  flex-direction: row ;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 3rem 0 3rem 0;
+}
+
+.footer small a {
+  text-decoration: none;
+  color: #17A600;
+  margin-left: 1rem;
+}
+.footer h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #17A600;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.line {
+  width: 50vw;
+}
+.image {
+  text-shadow: 0px 0px 100px #17A600;
+}
+.logo {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+@media (max-width: 600px) {
+  .nav {
+    padding: 1rem 1rem;
+  }
+  .footer {
+    padding: 0 2rem;
+    text-align: center;
+  }
+  .copy {
+    flex-direction: column-reverse;
+  }
+  .line {
+    width: 80vw;
+  }
+}
+
